@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pequeñines Valma</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header  class="header-mobile">
+        <div>
+            <img class="logo"
+                 src="Imagenes\Pequeñines Valma.png"
+                 alt="Pequeñines Valma">
+        </div>
+             <h1>Pequeñines Valma</h1>
+        <div>
+            <a href="index.html">Incio</a> |
+            <a href="Contacto.html">Contacto</a>
+        </div>
+    </header>
+    <header class="header-desktop">
+        <div>
+            <img class="logo"
+                 src="Imagenes\Pequeñines Valma.png"
+                 alt="Pequeñines Valma">
+        </div>
+            <h1>Pequeñines Valma</h1>
+        <div class="navDerecha">
+            <a href="index.html">Inicio</a> |
+            <a href="Contacto.html">Contacto</a>
+        </div>
+    </header>
+    <main>
+        <section id="contenido">
+            <from class="Formulario">
+                <fieldset>
+                    <legend>Hace tu pedido del disfraz que mas te guste</legend>
+                    <!-- Disfraz-->
+                    <div>
+                        <label for="gender">Disfraz:</label>
+                    </div>
+                    <input type="radio" name"gender" value="Spiderman"> Spiderman
+                    <input type="radio" name"gender" value="Superman"> Superman
+                    <input type="radio" name"gender" value="Batman"> Batman
+                    <input type="radio" name"gender" value="Mujer Maravilla"> Mujer Maravilla
+                    <input type="radio" name"gender" value="Frozen Elsa"> Frozen Elsa
+                    <input type="radio" name"gender" value="Frozen Ana"> Frozen Ana
+                    <br>
+                    <br>
+                    <!--Talla-->
+                    <div>
+                        <label for="size">Talle:</label>
+                        <select id="size" name="size">
+                            <option value="4">4</option>
+                            <option value="6">6</option>
+                            <option value="8">8</option>
+                            <option value="10">10</option>
+                        </select>
+                        <br>
+                        <br>
+                        <div>
+                            <label for="Nombre">Nombre:</label>
+                            <br>
+                            <input type="text" id="Nombre" placeholder="Escribe tu nombre">
+                        </div>
+                        <div>
+                            <label for="">Apellido:</label>
+                            <br>
+                            <input type="text" placeholder="Escribe tu Apellido">
+                        </div>
+                        <div>
+                            <label for="">Correo Electronico:</label>
+                            <br>
+                            <input type="email" id="email"requerid placeholder="Escribe tu email">
+                        </div>
+                        <div>
+                            <label for="">Telefono:</label>
+                            <br>
+                            <input type="telefono" id="telefono"requerid placeholder="Escribe tu Telefono">
+                        </div>
+                        <div>
+                            <label for="">Escriba un Mensaje:</label>
+                            <br>
+                            <input type="text" placeholder="Escribe un Mensaje">
+                    </div>
+                    <br>
+                    <form action="enviar.html">
+                          <input type="submit" Value="Enviar">
+                    </form>
+                </fieldset>
+            </from>
+        </section>
+    </main>
+    <footer>
+        <img class="logo"
+            src="Imagenes\Pequeñines Valma.png"
+            alt="Pequeñines Valma">
+        <div class="rrss"><strong>Nuestras Redes Sociales </strong></div>
+        <nav>
+            <p><a href="https://es-la.facebook.com/">Facebook</a> <a class="Twitter" href="https://twitter.com/?lang=es">Twitter</a></p>
+            <p><a href="https://www.instagram.com/">Instagram</a> <a class="WhatsApp" href="https://web.whatsapp.com/">WhatsApp</a></p>
+         </nav>
+    </footer>
+</body>
+
+</html>
