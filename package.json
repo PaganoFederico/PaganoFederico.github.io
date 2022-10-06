@@ -1,0 +1,28 @@
+{
+  "name": "preentrega3-pagano-federico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss styles.css",
+    "build desktop-css": "node-sass --include-path scss scss/desktop.scss desktop.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaganoFederico/Preentrega2-Pagano-Federico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaganoFederico/Preentrega2-Pagano-Federico/issues"
+  },
+  "homepage": "https://github.com/PaganoFederico/Preentrega2-Pagano-Federico#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}

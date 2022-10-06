@@ -1,0 +1,46 @@
+@media screen and (min-width: 600px) {
+    body {
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        grid-template-rows: 1fr 4fr 1fr;
+        grid-template-columns: 1fr;
+        justify-items: stretch;
+    }
+
+    header {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .header-mobile {
+        display: none;
+    }
+
+    .header-desktop {
+        display: flex;
+    }
+
+    main {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    footer {
+        flex-direction: row;
+        font-family: 'DynaPuff';
+    }
+    header .navIzquierda {
+        order: 1;
+    }
+
+    header .logo {
+        order: 2;
+    }
+
+    header .navDerecha{
+        order: 3;
+        font-family: 'DynaPuff'
+    }
+}
